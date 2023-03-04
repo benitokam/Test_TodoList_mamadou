@@ -1,38 +1,121 @@
 .App {
-  text-align: center;
+  width: 30%;
+  display: 0px;
+  margin-left: auto;
+  margin-right: auto;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.appName {
+   text-align: center;
+   font-weight: bold;
 }
+.Ajout {
+  background-color: white;
+  padding: 20px;
+  width: 100%;
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+  box-shadow: 10px 10px 10px black;
+  margin-bottom: 20px;
+
 }
+.affichage{
+  background-color: white;
+  padding: 20px;
+  width: 100%;
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+}
+.titre{
+   height: 30px;
+   width:  70%;
+}
+.urgence{
+  margin-top: 10px;
+}
+.checkbox{
+  color: red;
+}
+.b_Ajouter {
+  background-color: black;
   color: white;
+  font-weight: bold;
+  width: 20%;
+  height: 30px;
+  margin-left: 10px;
+  border-radius: 12px 0px 12px 0px;
+  box-shadow: 10px 10px 10px gray;
+}
+.b_Rechercher{
+  background-color: red;
+  color: white;
+  font-weight: bold;
+  width: 25%;
+  height: 30px;
+  margin-left: 10px;
+  border-radius: 10px 10px 10px 10px;
+  border: none;
+
+}
+.item{
+  background-color: orange ;
+ 
+  width: 100%;
+  padding-left: 10px;
+  height: 40px;
+  border-radius: 6px 6px 6px 6px;  
+  margin-bottom: 10px;
+  margin-top: 5px;
+}
+.itemUrgent{
+  background-color: red ;
+ 
+  width: 100%;
+  padding-left: 10px;
+  height: 40px;
+  border-radius: 6px 6px 6px 6px;  
+  margin-bottom: 10px;
+  margin-top: 5px;
+}
+.titre_P {
+  width: 80%;
+  
+    display: inline-block;
+   margin-top: -20px;
+}
+.titre_P > p{
+  color: white;
+  font-weight: bold;
+   font-size: 20px;
+   word-wrap: break-word;
+}
+.check{
+  width: 20px;
+  display: inline-block;
+  
 }
 
-.App-link {
-  color: #61dafb;
+.sup{
+  width: 100%;
+  height: 40px;
+  background-color: brown;
+  border: none;
+  font-weight: bold;
+  color: white;
+  margin-top: 20px;
+}
+.add{
+  width: 40px;
+  height: 40px;
+  background-color: brown;
+  border: none;
+  font-weight: bold;
+  color: white;
+  border-radius: 50%;
+  font-size: 20px; 
+  
+
+
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-}
+
+
+
